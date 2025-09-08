@@ -7,6 +7,6 @@ on:
 
 jobs:
   call-dispatcher:
-    uses: rakeshdevops2021/javahelloworld/.github/workflows/ci-dispatcher.yml@dev
+    uses: rakeshdevops2021/javahelloworld/.github/workflows/ci-dispatcher.yml@main
     with:
       tech_stack: java
