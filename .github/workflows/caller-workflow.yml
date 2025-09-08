@@ -1,0 +1,12 @@
+name: Java App CI
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  call-dispatcher:
+    uses: rakeshdevops2021/javahelloworld/.github/workflows/ci-dispatcher.yml@dev
+    with:
+      tech_stack: java
